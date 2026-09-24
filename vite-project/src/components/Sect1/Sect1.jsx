@@ -3,12 +3,8 @@ export default function Sect1() {
     return(
         <>
         <div>
-            <Header/>
-
-            
+            <Header/>  
         </div>
-        
-
         </>
     )
 }
