@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Manrope", sans-serif;
+}
+.sect6 {
+    width: 100vw;
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    .sect6_all {
+        width: 94vw;
+        height: 36vh;
+        position: relative;
+        border: 1px solid rgba(38, 38, 38, 1);
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .sect6_bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 94vw;
+            height: 36vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .sect6_bg_img {
+                width: 94vw;
+                height: 36vh;
+                object-fit: cover;
+                opacity: 0.45;
+            }
+            .sect6_overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 94vw;
+                height: 36vh;
+                background: linear-gradient(90deg, rgba(15, 15, 15, 1) 0%, rgba(15, 15, 15, 0.95) 45%, rgba(229, 0, 0, 0.18) 100%);
+            }
+        }
+        .sect6_wh {
+            position: relative;
+            z-index: 2;
+            width: 86vw;
+            height: 24vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .sect6_text {
+                width: 58vw;
+                display: flex;
+                flex-direction: column;
+                gap: 1.5vh;
+                .sect6_title {
+                    p {
+                        font-size: 3rem;
+                        color: rgba(255, 255, 255, 1);
+                        font-weight: 700;
+                        font-family: "Roboto Flex", sans-serif;
+                        line-height: 120%;
+                    }
+                }
+                .sect6_desc {
+                    width: 54vw;
+                    p {
+                        font-size: 1.125rem;
+                        color: rgba(153, 153, 153, 1);
+                        font-weight: 400;
+                        font-family: "Roboto Flex", sans-serif;
+                        line-height: 150%;
+                    }
+                }
+            }
+            .sect6_btn {
+                width: 14vw;
+                height: 6.5vh;
+                background-color: rgb(229, 0, 0);
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                p {
+                    font-size: 1.125rem;
+                    color: rgba(255, 255, 255, 1);
+                    font-weight: 600;
+                    font-family: "Roboto Flex", sans-serif;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}

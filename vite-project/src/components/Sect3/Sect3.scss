@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Manrope", sans-serif;
+}
+.sect3 {
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    .sect3_all {
+        width: 94vw;
+        height: 85vh;
+        display: flex;
+        gap: 3vh;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        .sect3_header {
+            width: 94vw;
+            height: 18vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            .sect3_title {
+                p {
+                    font-size: 2.5rem;
+                    color: rgba(255, 255, 255, 1);
+                    font-weight: 700;
+                    font-family: "Roboto Flex", sans-serif;
+                }
+            }
+            .sect3_desc {
+                width: 72vw;
+                p {
+                    font-size: 1.125rem;
+                    color: rgba(153, 153, 153, 1);
+                    font-weight: 400;
+                    font-family: "Roboto Flex", sans-serif;
+                    line-height: 150%;
+                }
+            }
+        }
+        .sect3_cards_all {
+            width: 94vw;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .sect3_row {
+                width: 94vw;
+                height: 28vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .sect3_card {
+                    width: 31vw;
+                    height: 29vh;
+                    background: radial-gradient(circle at top right, rgba(229, 0, 0, 0.12) 0%, rgba(15, 15, 15, 1) 60%);
+                    background-color: rgb(15, 15, 15);
+                    border: 1px solid rgba(38, 38, 38, 1);
+                    border-radius: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .sect3_card_wh {
+                        width: 25.5vw;
+                        height: 22vh;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: start;
+                        .sect3_card_top {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 2vw;
+                            .sect3_icon_box {
+                                width: 3.5vw;
+                                height: 3.5vw;
+                                background-color: rgb(20, 20, 20);
+                                border: 1px solid rgba(38, 38, 38, 1);
+                                border-radius: 12px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            p {
+                                font-size: 1.5rem;
+                                color: rgba(255, 255, 255, 1);
+                                font-weight: 600;
+                                font-family: "Roboto Flex", sans-serif;
+                            }
+                        }
+                        .sect3_card_desc {
+                            width: 25.5vw;
+                            p {
+                                font-size: 1.125rem;
+                                color: rgba(153, 153, 153, 1);
+                                font-weight: 400;
+                                font-family: "Roboto Flex", sans-serif;
+                                line-height: 150%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

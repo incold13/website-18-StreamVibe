@@ -6,37 +6,68 @@
    font-family: "Manrope", sans-serif;
 }
 header {
-   width: 100vw;
-   height: 9.5vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   nav {
-      width: 85vw;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      .nav {
-         height: 6vh;
-         width: 22vw;
-         display: flex;
-         align-items: center;
-         justify-content: space-between;
-         border: 4px #1F1F1F solid;
-         border-radius: 12px;
-         .nav_wh {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    nav {
+        width: 85vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            height: 7vh;
+        }
+        .nav {
+            height: 8vh;
+            width: 38vw;
             display: flex;
             align-items: center;
-            justify-content: space-around;
-            width: 100%;
-            button {
-               font-size: 1.125rem;
-               font-weight: 500;
-               background-color: rgba(26, 26, 26, 1);
-               border: 0px;
+            justify-content: center;
+            background-color: #0F0F0F;
+            border: 4px solid #1F1F1F;
+            border-radius: 12px;
+            .nav_wh {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 100%;
+                button {
+                    height: 70%;
+                    min-width: 7vw;
+                    font-size: 1.125rem;
+                    font-weight: 500;
+                    color: #BFBFBF;
+                    background-color: transparent;
+                    border: 0px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &.active {
+                        background-color: #1A1A1A;
+                        color: #FFFFFF;
+                    }
+                }
             }
-         }
-      }
-   }
+        }
+        .actions {
+            display: flex;
+            align-items: center;
+            gap: 1.5vw;
+
+            img {
+                height: 3.5vh;
+                cursor: pointer;
+            }
+        }
+    }
 }

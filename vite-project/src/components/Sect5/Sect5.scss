@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Manrope", sans-serif;
+}
+.sect5 {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    .sect5_all {
+        width: 94vw;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .sect5_header {
+            width: 94vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            .sect5_header_left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 1vh;
+                .sect5_title {
+                    p {
+                        font-size: 2.5rem;
+                        color: rgba(255, 255, 255, 1);
+                        font-weight: 700;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+                .sect5_desc {
+                    width: 65vw;
+                    p {
+                        font-size: 1.125rem;
+                        color: rgba(153, 153, 153, 1);
+                        font-weight: 400;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+            }
+            .sect5_toggle {
+                width: 13vw;
+                height: 6.5vh;
+                background-color: rgb(20, 20, 20);
+                border: 1px solid rgba(38, 38, 38, 1);
+                border-radius: 10px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                .sect5_toggle_btn_active {
+                    width: 5.8vw;
+                    height: 5vh;
+                    background-color: rgb(31, 31, 31);
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    p {
+                        font-size: 1rem;
+                        color: rgba(255, 255, 255, 1);
+                        font-weight: 500;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+                .sect5_toggle_btn {
+                    width: 5.8vw;
+                    height: 5vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    p {
+                        font-size: 1rem;
+                        color: rgba(153, 153, 153, 1);
+                        font-weight: 500;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+            }
+        }
+        .sect5_cards_all {
+            width: 94vw;
+            height: 50vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .sect5_card {
+                width: 30vw;
+                height: 50vh;
+                background-color: rgb(26, 26, 26);
+                border: 1px solid rgba(38, 38, 38, 1);
+                border-radius: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .sect5_card_wh {
+                    width: 26vw;
+                    height: 42vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: start;
+                    .sect5_card_top {
+                        width: 26vw;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1.2vh;
+                        .sect5_plan_title {
+                            font-size: 1.5rem;
+                            color: rgba(255, 255, 255, 1);
+                            font-weight: 700;
+                            font-family: "Roboto Flex", sans-serif;
+                        }
+                        .sect5_plan_desc {
+                            font-size: 1.125rem;
+                            color: rgba(153, 153, 153, 1);
+                            font-weight: 400;
+                            font-family: "Roboto Flex", sans-serif;
+                            line-height: 150%;
+                            height: 8vh;
+                        }
+                    }
+                    .sect5_price_box {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: baseline;
+                        gap: 0.3vw;
+                        .sect5_price {
+                            font-size: 2.5rem;
+                            color: rgba(255, 255, 255, 1);
+                            font-weight: 700;
+                            font-family: "Roboto Flex", sans-serif;
+                        }
+                        .sect5_period {
+                            font-size: 1.125rem;
+                            color: rgba(153, 153, 153, 1);
+                            font-weight: 400;
+                            font-family: "Roboto Flex", sans-serif;
+                        }
+                    }
+                    .sect5_btns_row {
+                        width: 26vw;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .sect5_btn_trial {
+                            width: 12.5vw;
+                            height: 6vh;
+                            background-color: rgb(20, 20, 20);
+                            border: 1px solid rgba(38, 38, 38, 1);
+                            border-radius: 8px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            p {
+                                font-size: 1rem;
+                                color: rgba(255, 255, 255, 1);
+                                font-weight: 600;
+                                font-family: "Roboto Flex", sans-serif;
+                                white-space: nowrap;
+                            }
+                        }
+                        .sect5_btn_choose {
+                            width: 12.5vw;
+                            height: 6vh;
+                            background-color: rgb(229, 0, 0);
+                            border-radius: 8px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            p {
+                                font-size: 1rem;
+                                color: rgba(255, 255, 255, 1);
+                                font-weight: 600;
+                                font-family: "Roboto Flex", sans-serif;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

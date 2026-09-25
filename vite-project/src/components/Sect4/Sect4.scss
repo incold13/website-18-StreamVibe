@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Manrope", sans-serif;
+}
+.sect4 {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    .sect4_all {
+        width: 94vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .sect4_header {
+            width: 94vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            .sect4_header_left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 1vh;
+                .sect4_title {
+                    p {
+                        font-size: 2.5rem;
+                        color: rgba(255, 255, 255, 1);
+                        font-weight: 700;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+                .sect4_desc {
+                    width: 60vw;
+                    p {
+                        font-size: 1.125rem;
+                        color: rgba(153, 153, 153, 1);
+                        font-weight: 400;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+            }
+            .sect4_btn {
+                height: 6vh;
+                width: 11vw;
+                background-color: rgb(229, 0, 0);
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                p {
+                    font-size: 1.125rem;
+                    color: rgba(255, 255, 255, 1);
+                    font-weight: 600;
+                    font-family: "Roboto Flex", sans-serif;
+                    white-space: nowrap;
+                }
+            }
+        }
+        .sect4_content {
+            width: 94vw;
+            height: 55vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            .sect4_col {
+                width: 44.5vw;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5vh;
+                .sect4_item_open {
+                    width: 44.5vw;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5vh;
+                    .sect4_item_top {
+                        width: 44.5vw;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        .sect4_num {
+                            width: 3.2vw;
+                            height: 3.2vw;
+                            background-color: rgb(26, 26, 26);
+                            border: 1px solid rgba(38, 38, 38, 1);
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            p {
+                                font-size: 1.25rem;
+                                font-weight: 600;
+                                color: rgba(255, 255, 255, 1);
+                                font-family: "Roboto Mono", monospace;
+                            }
+                        }
+                        .sect4_item_text {
+                            width: 36vw;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1.2vh;
+                            .sect4_item_title {
+                                font-size: 1.375rem;
+                                color: rgba(255, 255, 255, 1);
+                                font-weight: 600;
+                                font-family: "Roboto Flex", sans-serif;
+                            }
+                            .sect4_item_desc {
+                                font-size: 1.125rem;
+                                color: rgba(153, 153, 153, 1);
+                                font-weight: 400;
+                                font-family: "Roboto Flex", sans-serif;
+                                line-height: 150%;
+                            }
+                        }
+                        .sect4_icon {
+                            width: 2vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            img {
+                                width: 1.4vw;
+                                height: 1.4vw;
+                            }
+                        }
+                    }
+                    .sect4_line {
+                        width: 44.5vw;
+                        height: 1px;
+                        background: linear-gradient(90deg, rgba(229, 0, 0, 0.7) 0%, rgba(38, 38, 38, 0.8) 50%, rgba(38, 38, 38, 0) 100%);
+                    }
+                }
+                .sect4_item {
+                    width: 44.5vw;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2.5vh;
+                    .sect4_item_top {
+                        width: 44.5vw;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .sect4_num {
+                            width: 3.2vw;
+                            height: 3.2vw;
+                            background-color: rgb(26, 26, 26);
+                            border: 1px solid rgba(38, 38, 38, 1);
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            p {
+                                font-size: 1.25rem;
+                                font-weight: 600;
+                                color: rgba(255, 255, 255, 1);
+                                font-family: "Roboto Mono", monospace;
+                            }
+                        }
+                        .sect4_item_text {
+                            width: 36vw;
+                            display: flex;
+                            align-items: center;
+                            .sect4_item_title {
+                                font-size: 1.375rem;
+                                color: rgba(255, 255, 255, 1);
+                                font-weight: 600;
+                                font-family: "Roboto Flex", sans-serif;
+                            }
+                        }
+                        .sect4_icon {
+                            width: 2vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            img {
+                                width: 1.4vw;
+                                height: 1.4vw;
+                            }
+                        }
+                    }
+                    .sect4_line {
+                        width: 44.5vw;
+                        height: 1px;
+                        background: linear-gradient(90deg, rgba(229, 0, 0, 0.7) 0%, rgba(38, 38, 38, 0.8) 50%, rgba(38, 38, 38, 0) 100%);
+                    }
+                }
+            }
+        }
+    }
+}

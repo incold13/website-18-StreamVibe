@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Manrope", sans-serif;
+}
+.sect2 {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    flex-direction: column;
+    .sect2_all {
+        width: 94vw;
+        height: 59vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .sect2_header {
+            width: 94vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            .sect2_header_left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 3vh;
+                .sect2_title {
+                    p {
+                        font-size: 2.5rem;
+                        color: rgba(255, 255, 255, 1);
+                        font-weight: 700;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+                .sect2_desc {
+                    p {
+                        font-size: 1.125rem;
+                        color: rgba(153, 153, 153, 1);
+                        font-weight: 400;
+                        font-family: "Roboto Flex", sans-serif;
+                    }
+                }
+            }
+            .sect2_nav {
+                width: 13vw;
+                height: 6.5vh;
+                background-color: rgb(20, 20, 20);
+                border: 1px solid rgba(38, 38, 38, 1);
+                border-radius: 10px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-evenly;
+                .sect2_nav_btn {
+                    width: 2.8vw;
+                    height: 5vh;
+                    background-color: rgb(26, 26, 26);
+                    border: 1px solid rgba(38, 38, 38, 1);
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    img {
+                        width: 1.1vw;
+                        height: 1.1vw;
+                    }
+                }
+                .sect2_nav_indicators {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 0.3vw;
+                    .sect2_indicator_active {
+                        width: 1.4vw;
+                        height: 0.4vh;
+                        background-color: rgb(229, 0, 0);
+                        border-radius: 4px;
+                    }
+                    .sect2_indicator {
+                        width: 1vw;
+                        height: 0.4vh;
+                        background-color: rgba(51, 51, 51, 1);
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+        .sect2_cards_all {
+            width: 94vw;
+            height: 42vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .sect2_card {
+                width: 17.6vw;
+                height: 42vh;
+                background-color: rgb(26, 26, 26);
+                border: 1px solid rgba(38, 38, 38, 1);
+                border-radius: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .sect2_card_wh {
+                    width: 15.2vw;
+                    height: 37vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    .sect2_poster_img {
+                        width: 15.2vw;
+                        height: 29vh;
+                        border-radius: 12px;
+                        object-fit: cover;
+                    }
+                    .sect2_card_bottom {
+                        width: 15.2vw;
+                        height: 5vh;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        cursor: pointer;
+                        .sect2_card_name {
+                            font-size: 1.25rem;
+                            color: rgba(255, 255, 255, 1);
+                            font-weight: 600;
+                            font-family: "Roboto Flex", sans-serif;
+                        }
+                        .sect2_card_arrow {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img {
+                                width: 1.3vw;
+                                height: 1.3vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
